@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #f1ece0;
+  color: #716063;
+}
+a {
+  text-decoration: none;
+}
+/* header */
+header {
+  padding-top: 16px;
+}
+header a {
+  color: #aea4a2;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1432px;
+  padding: 0px 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0dad4;
+  padding-bottom: 16px;
+}
+.nav_wrapper a {
+  margin-right: 24px;
+}
+.nav_wrapper a:nth-child(4) {
+  margin-right: 0px;
+}
+.header_down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  align-items: center;
+}
+.header_wrapper_left a {
+  margin-right: 32px;
+}
+.header_wrapper_left a:nth-child(3) {
+  margin-right: 0px;
+}
+.icon-search {
+  width: 16px;
+  height: 16px;
+}
+.icon-like {
+  width: 20px;
+  height: 18px;
+  margin: 0px 34px 0px 39px;
+}
+.dot {
+  margin: 0px 8px;
+}
+/* /.header */
+
+/* catalog */
+.catalog-banner {
+  margin-top: 28px;
+}
+.card {
+  margin-top: 40px;
+}
+.card__properties {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.card__properties p:nth-child(1) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  color: #5c4a4d;
+}
+.card__properties p:last-child {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aea4a2;
+}
+.rectangle {
+  width: 1px;
+  height: 16px;
+  margin: 0px 8px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 410px;
+}
+.card {
+  width: 308px;
+}
+.card_name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #716063;
+}
+.card-buttons {
+  margin-top: 46px;
+  display: flex;
+}
+.card-button-basket {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #92525d;
+  border: 1px solid rgba(146, 82, 93, 0.24);
+  border-radius: 12px;
+  height: 40px;
+  padding: 10px 19px;
+}
+.like-card-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(146, 82, 93, 0.24);
+  border-radius: 12px;
+  margin-left: 12px;
+}
+.like-card {
+  margin: 13px 12px;
+  width: 16px;
+  height: 14px;
+}
+/* /.catalog */
